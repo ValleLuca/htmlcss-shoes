@@ -10,17 +10,17 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 
-.scarpa_1, .scarpa_2, .scarpa_3 {
+.scarpa {
     height: 100vh;
     width: 100vw;
     position: relative;
 }
 
-header div {
+#link1 {
     background-color: red; 
 }
 
-header div img {
+#link1 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,28 +28,33 @@ header div img {
 }
 
 div h2 {
-    text-align: center;
+    position: absolute;
     text-transform: uppercase;
+    text-align: center;
     color: #feff01;
     font-size: 50px;
+    bottom: 70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-main div {
+
+#link2 {
     background-color: green;
 }
 
-main div img {
+#link2 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-footer div {
+#link3 {
     background-color: yellow;
 }
 
-footer div img {
+#link3 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,5 +74,16 @@ nav {
 
 li {
     list-style-type: none;
-    text-decoration-line: none;
+    height: 50px;
+    width: 50px;
+    padding: 1%;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
 }
