@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
 }
 
 .scarpa_1, .scarpa_2, .scarpa_3 {
@@ -24,7 +30,8 @@ header div img {
 div h2 {
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 2px 2px rgba(0, 0, 0, .5);
+    color: #feff01;
+    font-size: 50px;
 }
 
 main div {
@@ -49,6 +56,10 @@ footer div img {
     transform: translate(-50%, -50%);
 }
 
+#link3 {
+    color: #008101;
+}
+
 nav {
     position: fixed;
     top: 70px;
@@ -57,5 +68,6 @@ nav {
 }
 
 li {
-    text-;
+    list-style-type: none;
+    text-decoration-line: none;
 }
